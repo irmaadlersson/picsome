@@ -1,10 +1,18 @@
 import React from "react";
+import Img from "../icons/shopping-cart.png";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <header>
-      <h2>Pic Some</h2>
-      <i className="ri-shopping-cart-line ri-fw ri-2x"></i>
+      <Link to="/">
+        <h2>Pic Some</h2>
+      </Link>
+
+      <Link to="/cart">
+        {/* <img src={Img} style={{ width: "4%" }} /> */}
+        <h2>Cart</h2>
+      </Link>
     </header>
   );
 }

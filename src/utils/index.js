@@ -5,3 +5,6 @@ export function getClass(i) {
     return "wide";
   }
 }
+
+/*Javascript that makes some of the pictures wider and bigger than the others, every 5th picture rendering will be big.
+And every 6th picture will be wide*/
